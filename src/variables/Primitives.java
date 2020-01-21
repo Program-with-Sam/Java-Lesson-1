@@ -26,4 +26,62 @@ public class Primitives {
     // This is a simple flag variable that can take the value true or false
     boolean exampleBoolean = true;
 
+    Primitives() {
+
+    }
+
+    public static void main(String args[]) {
+        /*
+        Create the Primitives object
+         */
+        Primitives p = new Primitives();
+
+        // Write out the byte
+        System.out.println("The byte is: " + p.exampleByte);
+
+        // Write out the char
+        System.out.println("The char is: " + p.exampleChar);
+        // Create a new number using the char, this proves it is technically an integer
+        int newNum = 5 + p.exampleChar;
+        // Output the number
+        System.out.println("The new num is: " + newNum);
+
+        // Write out the short
+        System.out.println("The short is: " + p.exampleShort);
+        // Write out max value for short
+        System.out.println("Maximum value for short is: " + Short.MAX_VALUE);
+        // Write out min value for short
+        System.out.println("Minimum value for short is: " + Short.MIN_VALUE);
+
+        // Write out int
+        System.out.println("The int is: " + p.exampleInt);
+        // Write out max value for int
+        System.out.println("Maximum value for int is: " + Integer.MAX_VALUE);
+        // Write out min value for int
+        System.out.println("Minimum value for int is: " + Integer.MIN_VALUE);
+
+        // Write out long
+        System.out.println("The long is: " + p.exampleLong);
+        // Write out max value for long
+        System.out.println("Maximum value for long is: " + Long.MAX_VALUE);
+        // Write out min value for long
+        System.out.println("Minimum value for long is: " + Long.MIN_VALUE);
+
+        // Write out float
+        System.out.println("The float is: " + p.exampleFloat);
+        // Write out max value for float
+        System.out.println("Maximum value for float is: " + Float.MAX_VALUE);
+        // Write out min value for float
+        System.out.println("Minimum value for float is: " + Float.MIN_VALUE);
+
+        // Write out double
+        System.out.println("The double is: " + p.exampleDouble);
+        // Write out max value for double
+        System.out.println("Maximum value for int is: " + Double.MAX_VALUE);
+        // Write out min value for double
+        System.out.println("Minimum value for int is: " + Double.MIN_VALUE);
+
+        // Write out boolean
+        System.out.println("The boolean is: " + p.exampleBoolean);
+    }
 }
