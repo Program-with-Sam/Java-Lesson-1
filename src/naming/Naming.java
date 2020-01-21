@@ -5,7 +5,7 @@ package naming;
 public class Naming {
 
     // Variable names start with lower case with subsequent words starting with a capital letter
-    private int allAirports;
+    private static int allAirports;
 
     // Constants are all uppercase
     final int MAX_HEIGHT = 1000000;
