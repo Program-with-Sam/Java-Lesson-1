@@ -83,5 +83,23 @@ public class Primitives {
 
         // Write out boolean
         System.out.println("The boolean is: " + p.exampleBoolean);
+
+        // Add some space
+        System.out.println("\n\n\n\n\n");
+
+        // Write out the static integer
+        System.out.println("Static integer is: " + Modifiers.staticInt);
+        // Modify the static integer
+        Modifiers.staticInt = 50000;
+        // Write out the static integer
+        System.out.println("Static integer is now: " + Modifiers.staticInt);
+
+        // Create an object
+        Modifiers m = new Modifiers();
+
+        // Write out the final integer
+        System.out.println("Final integer is: " + m.finalInt);
+        //m.finalInt = 1; Compiler error
+
     }
 }
